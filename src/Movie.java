@@ -1,7 +1,11 @@
 public class Movie {
+    //код фильма
     private int id;
+    //название
     private String title;
+    //описание
     private String description;
+    //ссылка на изображение
     private String coverPath;
 
     public int getId() {

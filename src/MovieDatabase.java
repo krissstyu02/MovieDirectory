@@ -17,6 +17,7 @@ public class MovieDatabase {
             // Установление соединения с базой данных SQLite
             connection = DriverManager.getConnection("jdbc:sqlite:film.sqlite");
         } catch (ClassNotFoundException | SQLException e) {
+            //выводит информацию об ошибке
             e.printStackTrace();
         }
     }
